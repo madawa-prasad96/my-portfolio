@@ -289,7 +289,7 @@ function ProjectsSection() {
               </div>
               
               <a 
-                href="/cv.pdf" 
+                href="cv.pdf" 
                 download="Madawa_Prasad_CV.pdf"
                 className="group inline-flex items-center space-x-3 bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-500 hover:to-teal-600 text-white px-8 py-4 rounded-xl transition-all duration-300 font-medium shadow-lg hover:shadow-teal-500/25 hover:shadow-xl transform hover:scale-105"
               >
