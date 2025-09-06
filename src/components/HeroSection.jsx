@@ -423,7 +423,7 @@ function HeroSection() {
               
               <div className="w-70 h-70 lg:w-96 lg:h-96 rounded-full overflow-hidden bg-gray-900 border-2 border-teal-500/30 relative z-10">
                 <img
-                  src="src\assets\madawa.png"
+                  src="madawa.png"
                   alt="Developer Portrait"
                   className="w-full ml-[25px] mt-[80px] lg:mt-[100px] scale-160 h-full object-cover filter md:grayscale md:hover:grayscale-0 transition-all duration-700"
                   loading="lazy"
@@ -464,7 +464,7 @@ function HeroSection() {
             
             <div className="pt-4">
               <a 
-                href="/src/assets/cv.pdf" 
+                href="cv.pdf" 
                 download="Madawa_prasad_cv.pdf"
                 className="group inline-flex items-center space-x-3 bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-full transition-all duration-300 font-medium"
               >

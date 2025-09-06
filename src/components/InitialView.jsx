@@ -43,7 +43,7 @@ function InitialView({ isTransformed, scrollPosition }) {
             {/* Image - Mobile: order-1 (top), Desktop: order-2 (right) */}
             <div className="flex-shrink-0 order-1 md:order-2 flex flex-col items-center justify-center">
               <img
-                src="src\assets\madawa.png"
+                src="madawa.png"
                 alt="Madawa Prasad"
                 className="w-[400px] h-[200px] border-2 border-black"
                 style={{ filter: 'none' }}
