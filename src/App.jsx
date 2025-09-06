@@ -136,7 +136,7 @@ function App() {
 
     const spawnTrail = (x, y) => {
       // small trailing sparkles - teal themed
-      const count = 6
+      const count = 5
       for (let i = 0; i < count; i++) {
         state.particles.push({
           x,
@@ -145,7 +145,7 @@ function App() {
           vy: random(-0.6, 0.6) - 0.4,
           life: random(300, 600),
           age: 0,
-          size: random(1, 2.2),
+          size: random(0.7, 1.2),
           hue: random(170, 200), // Teal hue range
           alpha: 1,
           gravity: 0.02,
@@ -155,11 +155,11 @@ function App() {
     }
 
     const spawnBurst = (x, y) => {
-      const count = 28
-      const speed = 2.2
+      const count = 30
+      const speed = 3.2
       for (let i = 0; i < count; i++) {
         const angle = (Math.PI * 2 * i) / count + random(-0.2, 0.2)
-        const s = speed * random(0.6, 1.2)
+        const s = speed * random(0.2, 0.8)
         state.particles.push({
           x,
           y,
@@ -167,7 +167,7 @@ function App() {
           vy: Math.sin(angle) * s,
           life: random(700, 1200),
           age: 0,
-          size: random(1.5, 3),
+          size: random(0.5, 1.5),
           hue: random(165, 195), // Teal/cyan hue range
           alpha: 1,
           gravity: 0.03,

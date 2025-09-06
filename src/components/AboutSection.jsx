@@ -165,8 +165,8 @@ function AboutSection() {
             About Me
           </h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate frontend developer with expertise in modern web technologies. 
-            I love creating beautiful, functional, and accessible user interfaces.
+            I'm a passionate full-stack engineer with expertise in modern web and mobile technologies. 
+            I love creating scalable applications and building complete digital solutions from frontend to backend.
           </p>
         </div>
         
@@ -175,31 +175,27 @@ function AboutSection() {
             <div>
               <h3 className="text-2xl font-normal text-teal-400 mb-4">Experience & Skills</h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                With over 3 years of experience in frontend development, I specialize in building 
-                scalable React applications and creating smooth user experiences.
+                With over 3 years of experience in full-stack development, I specialize in building 
+                scalable applications across the entire technology stack, from responsive frontends to robust backend systems.
               </p>
             </div>
             
             <div>
               <h4 className="text-lg font-medium text-white mb-4">Core Technologies</h4>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
                 {[
-                  { name: 'React & Next.js', level: 95 },
-                  { name: 'TypeScript', level: 90 },
-                  { name: 'Tailwind CSS', level: 95 },
-                  { name: 'Node.js', level: 80 }
+                  'React',
+                  'React Native', 
+                  'NestJS',
+                  'AWS',
+                  'SQL',
+                  'NoSQL'
                 ].map((skill, index) => (
-                  <div key={skill.name} className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span className="text-gray-300">{skill.name}</span>
-                      <span className="text-teal-400">{skill.level}%</span>
-                    </div>
-                    <div className="w-full bg-gray-800 rounded-full h-2">
-                      <div 
-                        className="bg-gradient-to-r from-teal-500 to-teal-400 h-2 rounded-full transition-all duration-1000 ease-out"
-                        style={{ width: `${skill.level}%`, animationDelay: `${400 + index * 200}ms` }}
-                      ></div>
-                    </div>
+                  <div 
+                    key={skill} 
+                    className="bg-gradient-to-r from-teal-500/10 to-teal-400/10 border border-teal-500/20 rounded-lg px-4 py-3 text-center transition-all duration-300 hover:from-teal-500/20 hover:to-teal-400/20 hover:border-teal-400/40 hover:scale-105"
+                  >
+                    <span className="text-teal-300 font-medium text-sm">{skill}</span>
                   </div>
                 ))}
               </div>
