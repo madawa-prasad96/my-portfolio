@@ -211,6 +211,8 @@ function ProjectsSection() {
           </p>
         </div>
         
+        {/* Commented out project cards - keeping for future use */}
+        {/*
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <article 
@@ -265,6 +267,42 @@ function ProjectsSection() {
               </div>
             </article>
           ))}
+        </div>
+        */}
+        
+        {/* Download CV Section */}
+        <div className="text-center">
+          <div className="max-w-md mx-auto">
+            <div className="bg-gradient-to-br from-gray-900/80 to-gray-800/80 backdrop-blur-sm border border-gray-700/50 rounded-2xl p-8 shadow-2xl">
+              <div className="mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-teal-500/20 to-teal-400/20 rounded-full border border-teal-500/30 flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-teal-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-3">
+                  My Project Portfolio
+                </h3>
+                <p className="text-gray-300 leading-relaxed">
+                  Explore detailed information about my projects, technical skills, and professional experience in my comprehensive CV.
+                </p>
+              </div>
+              
+              <a 
+                href="/cv.pdf" 
+                download="Madawa_Prasad_CV.pdf"
+                className="group inline-flex items-center space-x-3 bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-500 hover:to-teal-600 text-white px-8 py-4 rounded-xl transition-all duration-300 font-medium shadow-lg hover:shadow-teal-500/25 hover:shadow-xl transform hover:scale-105"
+              >
+                <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-y-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                <span>Download my CV</span>
+                <svg className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-0 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

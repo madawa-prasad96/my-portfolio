@@ -212,8 +212,8 @@ function ContactSection() {
             </div>
             <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
             <p className="text-gray-400 text-sm mb-4">Drop me a line anytime</p>
-            <a href="mailto:madawa@example.com" className="text-teal-400 font-medium hover:text-teal-300 transition-colors duration-300">
-              madawa@example.com
+            <a href="mailto:wdmprasad96@gmail.com" className="text-teal-400 font-medium hover:text-teal-300 transition-colors duration-300">
+              Email Me
             </a>
           </div>
           
@@ -225,7 +225,7 @@ function ContactSection() {
             </div>
             <h3 className="text-lg font-semibold text-white mb-2">LinkedIn</h3>
             <p className="text-gray-400 text-sm mb-4">Let's connect professionally</p>
-            <a href="https://linkedin.com/in/madawa" target="_blank" rel="noopener noreferrer" className="text-teal-400 font-medium hover:text-teal-300 transition-colors duration-300">
+            <a href="https://www.linkedin.com/in/madawa-prasad/" target="_blank" rel="noopener noreferrer" className="text-teal-400 font-medium hover:text-teal-300 transition-colors duration-300">
               /in/madawa-prasad
             </a>
           </div>
@@ -238,7 +238,7 @@ function ContactSection() {
             </div>
             <h3 className="text-lg font-semibold text-white mb-2">GitHub</h3>
             <p className="text-gray-400 text-sm mb-4">Check out my code</p>
-            <a href="https://github.com/madawa" target="_blank" rel="noopener noreferrer" className="text-teal-400 font-medium hover:text-teal-300 transition-colors duration-300">
+            <a href="https://github.com/madawa-prasad96" target="_blank" rel="noopener noreferrer" className="text-teal-400 font-medium hover:text-teal-300 transition-colors duration-300">
               @madawa
             </a>
           </div>
@@ -247,7 +247,7 @@ function ContactSection() {
         <div className="">
           <a
             className="group inline-flex h-12 items-center justify-center rounded-lg bg-teal-600 hover:bg-teal-700 px-8 text-white font-semibold transition-all duration-300 hover:scale-105"
-            href="mailto:madawa@example.com"
+            href="mailto:wdmprasad96@gmail.com"
           >
             <svg className="mr-3 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 7.89a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
