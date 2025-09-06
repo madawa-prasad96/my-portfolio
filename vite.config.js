@@ -10,5 +10,5 @@ export default defineConfig({
       '2585d0ca38ba.ngrok-free.app', // your ngrok host
     ],
   },
-  base: '/portfolio/'
+  base: '/my-portfolio/'
 })
