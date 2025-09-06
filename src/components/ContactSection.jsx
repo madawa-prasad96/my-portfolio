@@ -213,7 +213,7 @@ function ContactSection() {
             <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
             <p className="text-gray-400 text-sm mb-4">Drop me a line anytime</p>
             <a href="mailto:wdmprasad96@gmail.com" className="text-teal-400 font-medium hover:text-teal-300 transition-colors duration-300">
-              Email Me
+              wdmprasad96@gmail.com
             </a>
           </div>
           
@@ -239,7 +239,7 @@ function ContactSection() {
             <h3 className="text-lg font-semibold text-white mb-2">GitHub</h3>
             <p className="text-gray-400 text-sm mb-4">Check out my code</p>
             <a href="https://github.com/madawa-prasad96" target="_blank" rel="noopener noreferrer" className="text-teal-400 font-medium hover:text-teal-300 transition-colors duration-300">
-              @madawa
+              @madawa-prasad
             </a>
           </div>
         </div>
